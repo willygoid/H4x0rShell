@@ -1,5 +1,5 @@
 
-# Haxor Shell
+# Haxor Shell [![Generic badge](https://img.shields.io/badge/Haxor-ID-blue)](https://shields.io/)
 
 Simple Webshell Bypasser Support All Server with WAF instead
 ## Feature
@@ -36,6 +36,7 @@ rebuild from kaylin
 
 ## Note
 Default Shell Password: mi77i
+
 This webshell only for educational purposes, we dont accept any illegal usage.  
 
 ## License
