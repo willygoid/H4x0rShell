@@ -1,6 +1,6 @@
 <?php
 /*   __________________________________________________
-    |              Haxor WebShell Reborn               |  
+    |             Haxor WebShell Reborn                |  
     |              Author: @willygoid                  |
     |       GitHub: https://github.com/willygoid       |
     |__________________________________________________|
