@@ -34,5 +34,9 @@ Please make sure to update tests as appropriate.
 Author: [@willygoid](https://icq.im/willygoid)
 rebuild from kaylin
 
+## Note
+Default Shell Password: mi77i
+This webshell only for educational purposes, we dont accept any illegal usage.  
+
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
