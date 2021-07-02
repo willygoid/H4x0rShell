@@ -1,5 +1,5 @@
 
-# Haxor Shell [![Generic badge](https://img.shields.io/badge/Haxor-ID-blue)](https://shields.io/)
+# Haxor Shell [![Generic badge](https://img.shields.io/badge/Haxor-ID-blue)](https:/hax.or.id/)
 
 Simple Webshell Bypasser Support All Server with WAF instead
 ## Feature
