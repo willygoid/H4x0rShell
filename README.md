@@ -1,10 +1,10 @@
 
 # Haxor Shell
 
-Simple Webshell bypasser All Server with WAF instead
+Simple Webshell Bypasser Support All Server with WAF instead
 ## Feature
 
-```bash
+```python
 [✓] Simple, Clean, Minimalist, No Logger, Fast Load
 [✓] File Manager
 [✓] Powerfull Searcher
